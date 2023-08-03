@@ -1,0 +1,61 @@
+
+.box-pad{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+.box-un{
+    background: #fffefe;
+    width: 250px;
+    box-shadow: 10px 5px 5px rgb(94, 91, 91);
+    height:119px;
+    border-radius: 15px;
+    margin: 2rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.free{
+   
+    background:#fffefe;
+    width: 100%;
+    box-shadow: 10px 5px 5px rgb(86, 82, 82);
+    height: 40px;   
+}
+.util h3{
+    text-align: left;
+}
+.tableau{
+    max-width: 980px;
+    margin: 0 auto; 
+    padding: 20px;
+
+
+
+}
+.table th {
+   
+}
+table td{
+        
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+footer h5{
+   text-align: center;
+   margin: 1rem;
+}
+button{
+    width: 110px;
+    height: 44px;
+    left: 395px;
+    border-radius: 10px;
+    
+}
