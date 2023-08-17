@@ -6,6 +6,24 @@
     text-align: center;
     margin: 2rem;
 }
+.danger{
+    color: red;
+}
+.green{
+    border: none;
+    border: 'none';
+     border-Collapse :Collapse;
+      border-spacing:0;
+}
+.actif{
+    border: none;
+    border: 'none';
+     border-Collapse :Collapse;
+      border-spacing:0;
+}
+.tout{
+    border: none;
+}
 .box-un{
     background: #fffefe;
     width: 250px;
@@ -17,7 +35,50 @@
     align-items: center;
     border-radius: 10px;
 }
-
+.bootstraptable.table-borderless {
+    border: none;
+  }
+  .container .bootstrapTable{
+    border: 'none';
+     border-Collapse :Collapse;
+      border-spacing:0;
+  }
+.button{
+    
+    margin-left: 525px;
+    
+}
+.circle {
+    width: 15px;
+    height: 26px;
+    border-radius: 10px;
+    background-color: rgb(64, 245, 32);
+}
+.p2{
+    display: flex;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(207, 211, 207);
+    
+}
+.p3 h6{
+    margin-top: -4px;
+    padding-left: 110px;
+}
+.p2 .p3{
+    width: 55px;
+    height: 10px;
+    background-color: rgb(5, 154, 5);
+   
+}
+.p{
+    display: grid;
+    display: flex;
+    width: 95px;
+    height: 10px;
+    background-color: green;
+    margin-right: 5px;
+}
 .free{
    
     background:#fffefe;
@@ -36,11 +97,15 @@
 
 
 }
-.table th {
-   
+.bootstraptable{
+    border-radius: none;
+  border: none;
+    border-collapse: collapse;
 }
-table td{
-        
+.container {
+    margin: 1rem;
+    border: none ;
+    border-color: #fffefe;
     
 }
 footer{
@@ -52,10 +117,41 @@ footer h5{
    text-align: center;
    margin: 1rem;
 }
-button{
-    width: 110px;
-    height: 44px;
-    left: 395px;
-    border-radius: 10px;
+
+@media (max-width: 560px){
+    .box-pad{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+font-size: 7px;
+
+    }
+    .p2{
+        width: 90px;
+        height: 10px;
+        background-color: rgb(207, 211, 207);
+        
+    }
     
+    .p3 h6{
+        
+    }
+    .footer h5{
+    font-size: 9px;
+    }
+    .button{
+        margin-left: 25px;
+    
+    }
+    .tableau{
+        margin-right: 70px;
+        font-size: 8px;
+        
+    }
+.tableau img{
+    
+    
+}
 }
