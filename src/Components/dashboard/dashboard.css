@@ -1,0 +1,174 @@
+.card-deck{
+  display: flex;
+  padding-top: 100px;
+  
+  
+}
+.card1{
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: 40px;
+  box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+  border: 1px;
+  width: 420.8px;
+  height: 130px;
+  border: 1px;
+ margin-top: 10px;
+ 
+ 
+
+}
+.card3{
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: 40px;
+  box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+  border: 1px;
+  width: 420.8px;
+  height: 130px;
+  border: 1px;
+ margin-top: 10px;
+ 
+}
+.card2{
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: 40px;
+  box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+  border: 1px;
+  width: 620.8px;
+  height: 130px;
+  border: 1px;
+ margin-top: 10px;
+ 
+}
+.card4{
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: 40px;
+  box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+  border: 1px;
+  width: 880.8px;
+  height: 550px;
+  border: 1px;
+ margin-top: 10px;
+ 
+}
+.card5{
+  background-color: #fff;
+  border-radius: 8px;
+  margin-left: 40px;
+  box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+  border: 1px;
+  width: 620.8px;
+  height: 550px;
+  border: 1px;
+ margin-top: 10px;
+ 
+ 
+}
+.mbaye{
+  display: flex;
+  padding-top: 100px;
+
+}
+.card-title1{
+  padding-left: 26px;
+  background-color: #20DF7F; 
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 8px;
+}
+.card-title2{
+  background-color: #20DF7F; 
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 8px;
+}
+.chart2{
+  width: 450px;
+  height: 450px;
+  padding-top: -50px;
+margin-left: 100px;
+}
+.monimage{
+  padding-left: 190px;
+  height: 90px;
+}
+.monimage2{
+  margin-top: -122PX;
+  margin-left: 80px;
+  width: 50px;
+}
+.back1{
+  background-color:  #20DF7F14;
+  height: 100px;
+  margin-top: -80px;
+  width: 120px;
+  margin-left: 50px;
+}
+.p1{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.card-body{
+
+}
+.text-muted{
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px){
+  .card-deck{
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.mbaye{
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.card1{
+  width: 618.8px;
+  height: 130px;
+}
+.card3{
+  width: 618.8px;
+}
+.card4{
+  width: 618.8px;
+ height: 440PX;
+  
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+  .card3{
+    width: 375.8px;
+  }
+  .card4{
+    width: 838.8px;
+   height: 540PX;
+    
+  }
+  .card5{
+    width: 588.8px;
+   height: 540PX;
+    
+  }
+  .card2{
+   
+    width: 584.8px;
+    height: 130px;
+   
+   
+  }
+}
+
+
+

@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
+}
+
+.sidebar {
+  width: 100px;
+  background-color: #093545;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  transition: width 0.3s;
+  margin-left: -554px;
+  padding-top: 30px;
+  font-size: 25px;
+  position: absolute;
+  top: 0%;
+}
+
+.top_section {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.link:hover {
+  background-color: #20DF7F;
+  ;
+}
+
+.link .icon {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.link_text {
+  display: none;
+  font-size: 30px;
+}
+
+.sub_menu {
+  padding-left: 25px;
+}
+
+.sub_link {
+  display: block;
+  padding: 5px 0;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.sub_link:hover {
+  background-color: #20DF7F ;
+}
+
+.sub_menu div {
+  display: flex;
+  align-items: center;
+}
+
+.sub_menu div svg {
+  margin-right: 5px;
+}
+.arrow-icon {
+  margin-left: auto;
+  font-size: 0.8em;
+}
+.backcont{
+
+
+}
+.bars {
+  background: none;
+  border: none;
   color: white;
+  cursor: pointer;
+  font-size: 40px;
+  margin: -10px;
+  display: flex;
+  align-items: center;
+  
+}
+@media only screen and (max-width: 767px){
+  .sidebar {
+    width: 90px;
+    background-color: #093545;
+    color: #fff;
+    height: 1600px;
+    overflow: hidden;
+    transition: width 0.3s;
+    margin-left: -10px;
+    padding-top: 30px;
+    font-size: 25px;
+    position: fixed;
+    top: 0%;
+    
+  }
+  
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+  .sidebar {
+    width: 90px;
+    height: 1600px;
+    overflow: hidden;
+    transition: width 0.3s;
+    margin-left:-38px !important;
+    padding-top: 30px;
+    font-size: 25px;
+    position: fixed;
+    top: 0%;
+    
+    
+  }
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+

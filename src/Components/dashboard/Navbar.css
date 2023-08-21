@@ -1,0 +1,48 @@
+.Nav{
+    background-color: #fff;
+    border-radius: 8px;
+    height: 85px;
+    box-shadow: 0px 4px 6px rgba(208, 207, 207, 0.962);
+}
+.monimage3{
+    margin-right: 10px;
+    height: 70px;
+}
+.admin_name{
+     font-size: 25px;
+     margin-right: 30px;
+     font-weight: bold;
+}
+i{
+    font-weight: bold;
+font-size: 25px;
+
+}
+@media only screen and (max-width: 767px){
+    .Nav{
+       
+        height: 35px;
+        width: 680px;
+        position:fixed ;
+        z-index: 100;
+    }
+
+
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+
+    .Nav{
+       
+        height: 35px;
+        width: 1700px !important;
+        position:fixed ;
+        z-index: 100;
+        
+    }
+
+  }
+
+  
