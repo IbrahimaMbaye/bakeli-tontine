@@ -1,0 +1,41 @@
+.total2{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+
+letter-spacing: 0em;
+
+text-align: right;
+color: rgba(9, 53, 69, 1);
+}
+@media only screen and (max-width: 767px)  {
+  
+
+  .Container {
+    width: 95%;
+    margin: 0 auto; 
+    display: none;
+  }
+  .total3{
+     
+      margin-top: 10px !important;
+     
+  }
+  .cheader{
+      width: 299px;
+      
+  }
+  .cbody{
+      width: 300px !important;
+      
+      margin-top: 30px !important;
+      height: 480px !important;
+  }
+  .tab{
+      width: 250px !important;
+      height: 30px ;
+      margin-top: -20px !important;
+      margin-left: -21.31px !important;
+  }
+  
+}

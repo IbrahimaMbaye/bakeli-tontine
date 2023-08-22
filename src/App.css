@@ -1,18 +1,19 @@
 .container {
   display: flex;
+  
 }
 
 .sidebar {
-  width: 100px;
+  width: 80px;
   background-color: #093545;
   color: #fff;
   height: 100vh;
   overflow: hidden;
   transition: width 0.3s;
-  margin-left: -554px;
+  margin-left: -84px;
   padding-top: 30px;
   font-size: 25px;
-  position: absolute;
+  position: fixed ;
   top: 0%;
 }
 
@@ -21,6 +22,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  
 }
 
 .logo {

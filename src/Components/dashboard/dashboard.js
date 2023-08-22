@@ -2,7 +2,7 @@ import React from 'react';
 import { Line, Pie } from 'react-chartjs-2';
 import { Chart, registerables } from 'chart.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../dashboard/Dashboard.css';
+import '../dashboard/dashboard.css';
 import monImage from '../images/tab.png';
 import monImage2 from '../images/logo.png';
 

@@ -3,6 +3,8 @@
     border-radius: 8px;
     height: 85px;
     box-shadow: 0px 4px 6px rgba(208, 207, 207, 0.962);
+    position: fixed;
+    width: 100%;
 }
 .monimage3{
     margin-right: 10px;

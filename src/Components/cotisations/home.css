@@ -1,0 +1,253 @@
+.container {
+    justify-content: center;
+   flex-direction: column;
+   display: flex; 
+   
+}
+.TABLENEXT{
+  width: 794px !important;
+height: 483px;
+margin-top:61px !important;
+margin-left: 370px !important;
+border-radius: 10px;
+
+}
+
+table td{
+    border:none ; border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0; 
+    text-align: center;
+}
+
+.card6{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 190px !important;
+    box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+    border: 1px;
+    width: 280.8px;
+    height: 110px;
+    border: 1px;
+   margin-top: 120px !important;
+  }
+  
+
+  table{
+    margin-left: 395px !important;
+    margin-right: 230px;
+    box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+    
+}
+table th{
+    box-shadow:0px 4px 6px rgba(208, 207, 207, 0.962);
+    text-align: center;
+}
+.background {
+    
+    width: 87px;
+    height: 46px;
+    margin-top: 87px;
+    margin-left: 1260px;
+    border-radius: 15px;
+    background: rgba(196, 196, 196, 1);
+
+  }
+  
+  .ellipse-container {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: start;
+    
+    position: absolute;
+  }
+  
+  .ellipse1 {
+    width: 10px;
+height: 10px;
+margin-top: 20px;
+
+left: 1399px;
+background: rgba(32, 223, 127, 1);
+
+
+    
+  }
+  
+  .ellipse2 {
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    left: 1383px;
+    background: rgba(32, 223, 127, 1);
+  }
+  
+  .ellipse3 {
+    background: rgba(32, 223, 127, 1);
+    width: 10px;
+height: 10px;
+margin-top: 20px;
+left: 1365px;
+  }
+  
+  .card-body{
+    margin-left: 15px;
+  }
+  .carde{
+    width: 819.8px;
+    height: 112px;
+    top: 116px;
+  }
+  @media only screen and (max-width: 767px)  {
+  
+
+    .Container {
+      width: 95%;
+      margin: 0 auto; 
+      display: none;
+     
+    }
+    .background {
+    
+      width: 87px;
+      height: 46px;
+      margin-top: 81px;
+      margin-left: 199px;
+      border-radius: 15px;
+      background: rgba(196, 196, 196, 1);
+  
+    }
+    .ellipse1 {
+      width: 10px;
+  height: 10px;
+  margin-top: 20px;
+  
+  left: 283px;
+  background: rgba(32, 223, 127, 1);
+  
+  
+      
+    }
+    
+    .ellipse2 {
+      width: 10px;
+      height: 10px;
+      margin-top: 20px;
+      left: 225px;
+      background: rgba(32, 223, 127, 1);
+    }
+    
+    .ellipse3 {
+      background: rgba(32, 223, 127, 1);
+      width: 10px;
+  height: 10px;
+  margin-top: 20px;
+  left: 250px;
+    }
+    .card6{
+     
+     margin-left: 35px !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 320px !important;
+     
+    }
+    
+    .circle-layout {
+      display: grid;
+      grid-template-columns: repeat(4, 20px);
+      grid-gap: 10px;
+      text-align: center;
+      
+      margin-top: 20px;
+    }
+    
+    .circle {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+     
+      
+    }
+    
+    .white {
+     margin-left:130px !important ;
+    }
+    
+    .green {
+      background-color: #28a745;
+      color: hsl(0, 5%, 4%);
+      margin-left: 135px !important;
+    }
+    .text{
+      margin-left:45px !important;
+      font-size: 12px !important;
+      padding-top: 3px;
+    }
+    .text2{
+      
+      margin-left: 260px !important;
+      font-size: 10px !important;
+      margin-top: -26px !important;
+      
+    }
+    
+ 
+.TABLENEXT{
+ margin-left: auto;
+margin-left: 25px !important;
+ width: 680px !important;
+ height: 200px;
+} 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .Container {
+    width: 90%; 
+    margin: 0 auto; 
+    font-size: 16px; 
+  }
+  .card6{
+    
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 220px;
+    margin-left: 6px !important;
+  }
+  .white {
+    margin-left:287px !important;
+   }
+   
+   .green {
+     background-color: #28a745;
+     color: hsl(0, 5%, 4%);
+     margin-left: 290px !important;
+   }
+   .text{
+     margin-left: 145px;
+     padding-top: 4px !important;
+   }
+   .text2{
+     
+     margin-left:420px;
+     font-size: 15PX;
+     margin-top: -35px !important;
+   }
+   
+   
+   .TABLENEXT{
+    margin-left: auto;
+    margin-left: 30px !important;
+    width: 680px !important;
+    height: 400px;
+   } 
+table{
+  width: 680px !important;
+  height: 400px;
+  margin-left: 30px !important;
+}
+}

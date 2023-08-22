@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../App.css';
-import img from '../images/Group 3.png';
+
 
 import {
     FaTh,
@@ -60,16 +60,17 @@ const Sidebar = ({ children }) => {
             path: "/Bloques",
             name: "Membres Bloqués"
         },
+
         // Ajoutez d'autres éléments de sous-menu ici
     ];
 
     return (
         <div className='backcont'>
         <div className="container">
-            <div style={{ width: isOpen ? "310px" : "50px" }} className="sidebar">
+            <div style={{ width: isOpen ? "250px" : "50px" }} className="sidebar">
                 <div className="top_section">
                     <h2 style={{ display: isOpen ? "flex" : "none", alignItems: "center", justifyContent: "center" }} className="logo">
-                    <img src={img} alt="Description de l'image" className="logo-image" style={{ marginRight: "4px" }} />
+                   
                    
                         <span style={{ marginLeft: "5px" }}>Bakeli</span>
                         <span style={{ marginLeft: "5px", marginRight: "", fontSize: "" }}>tontine</span>
